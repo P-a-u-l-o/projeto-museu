@@ -18,15 +18,16 @@
 </head>
 
 <body>
-
+    <!--início container-->
     <main>
-        <!--início container-->
+        <!--início header-->
         <header>
             <div id="logo">
                 <h1><a href="#">Museu Nacional</a></h1>
             </div>
+            <!--início nav-->
             <nav>
-                <!--início nav-->
+
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Exposições</a></li>
@@ -40,6 +41,61 @@
             <!--/fim nav-->
 
         </header>
+        <!--/fim header-->
+        <!--início principal-->
+        <div id="principal">
+            <!--início conteúdo-->
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="/assets/images/museu.png" alt="Museu">
+                </section>
+            </div>
+            <!--/fim conteúdo-->
+            <!--início aside-->
+            <aside>
+                <section id="depoimento">
+                    <img src="/assets/images/depoimento.png" alt="Depoimento">
+                </section>
+                    <!--início da seção visita-->
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" placeholder="dd/mm/aa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" type="text" id="qtd" placeholder="1">
+                        </fieldset>
+                        <input class="botao"type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+                <!--/fim da seção visita-->
+                <!--início da galeria de fotos-->
+                <section id="galeria">
+                    <h1>Galeria de fotos</h1>
+                    <a href="">
+                        <img src="/assets/images/imagem1.jpg" alt="imagem1" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="/assets/images/imagem2.jpg" alt="imagem2" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="/assets/images/imagem3.jpg" alt="imagem3" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="/assets/images/imagem4.jpg" alt="imagem4" height="93" width="93">
+                    </a>
+                </section>
+                <!--/fim da galeria de fotos-->
+            </aside>
+            <!--/fim aside-->
+        </div>
+        <!--/fim principal-->
 
     </main>
     <!--/fim container-->
